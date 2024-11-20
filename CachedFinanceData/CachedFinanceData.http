@@ -1,0 +1,6 @@
+@CachedFinanceData_HostAddress = http://localhost:5025
+
+GET {{CachedFinanceData_HostAddress}}/
+Accept: application/json
+
+###
