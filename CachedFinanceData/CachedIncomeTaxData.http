@@ -1,0 +1,6 @@
+@CachedCarIncomeData_HostAddress = http://localhost:5025/income-tax
+
+GET {{CachedCarIncomeData_HostAddress}}/
+Accept: application/json
+
+###

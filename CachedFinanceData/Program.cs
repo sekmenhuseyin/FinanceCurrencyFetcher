@@ -17,5 +17,6 @@ app.UseHttpsRedirection();
 
 app.MapGet("/", Finance.GetData);
 app.MapGet("/car-tax", CarTax.GetData);
+app.MapGet("/income-tax", GetIncomeTaxData.GetData);
 
 app.Run();
